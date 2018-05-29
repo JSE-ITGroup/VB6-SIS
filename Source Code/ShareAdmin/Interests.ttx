@@ -1,0 +1,15 @@
+CompName	String	50			
+LicDate	Date		
+ChqDate	Date		
+InterestRate	Number
+InterestDate	Date			
+ClientId	Number		
+GrossPymnt	Currency		
+WhldTax	Currency		
+Shares	Number
+ChqNum	String	20		
+ResCode	String	2	
+CatCode	String	2
+CliName	String	50	
+CatDesc	String	30	
+ResCtry	String	30	

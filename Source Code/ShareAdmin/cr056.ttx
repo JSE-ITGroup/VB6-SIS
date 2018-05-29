@@ -1,0 +1,20 @@
+Cusip	String	12	
+ParValue	Currency		
+ClientId	Long		
+IssDate	Date		
+Shares	Number		
+CertNo	Number		
+BrokerBuy	Boolean		
+CliName	String	50	
+CliAddr1	String	40	
+CliAddr2	String	40	
+CliAddr3	String	40	
+CliAddr4	String	40	
+CliAddr5	String	40	
+JntName1	String	50	
+JntName2	String	50	
+JntName3	String	50
+CompName	String 	50	
+TotStocks	Number
+IssStocks	Number
+Form		String	8

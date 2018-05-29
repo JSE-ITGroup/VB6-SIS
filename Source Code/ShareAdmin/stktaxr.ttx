@@ -1,0 +1,4 @@
+CompName	String	50
+ResCode	String	2	
+ResCtry	String	30	
+TaxRate	Number		

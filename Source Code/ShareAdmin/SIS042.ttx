@@ -1,0 +1,6 @@
+Compname	String	50
+IssStocks	Number
+OwnershipPer	Number
+ClientId	Number
+CliName	String	50
+Shares	Number

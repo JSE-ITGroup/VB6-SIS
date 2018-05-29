@@ -1,0 +1,16 @@
+ChqNum	Number		
+ChqDate	Date		
+ChqAmt	Currency		
+DecDate	Date		
+PayTyp	String	1	
+ClientId	Number		
+PayeeName	String	50
+Addr1		String	40
+Addr2		String	40
+Addr3		String	40
+Addr4		String	40
+Addr5		String	40	
+Shares	Number		
+GrossPymnt	Currency		
+WhldTax	Currency		
+DistCode	Number		

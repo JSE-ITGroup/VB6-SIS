@@ -1,0 +1,9 @@
+AccountNo	String	20
+ChqNum	String	20
+ChqDate	Date
+ChqAmt	Currency
+Payee	String	50
+UserID	String	10
+RetDate	Date
+SupervisorID	String	10
+AppDate	Date

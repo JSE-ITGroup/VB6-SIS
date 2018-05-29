@@ -1,0 +1,18 @@
+[Version]
+Version=1.0.0.0
+
+[SDIActiveX.dll <0009>]
+Dest=$(AppPath)
+Date=6/5/99
+Time=01:18
+Version=1.0.0.0
+CABFilename=SDIActiveX.CAB
+CABINFFile=SDIActiveX.INF
+Uses1=MSVBVM60.DLL
+Uses2=OLEAUT32.DLL
+Uses3=olepro32.dll
+Uses4=asycfilt.dll
+Uses5=STDOLE2.TLB
+Uses6=COMCAT.DLL
+Uses7=msado15.dll
+Uses8=msador15.dll

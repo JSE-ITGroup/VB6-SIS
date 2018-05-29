@@ -1,0 +1,9 @@
+1306200500000000005974700000001
+CI       354125625CDividend Payment                                  BNK-MND-0000000001200000000006371.40JMD   20072005                              N                                                                                          
+CI       435055133CDividend Payment                                  BNK-MND-0000000001220000000002770.20JMD   20072005                              N                                                                                          
+CI       301043120CDividend Payment                                  BNK-MND-0000000001230000000003130.00JMD   20072005                              N                                                                                          
+CI       645438329CDividend Payment                                  BNK-MND-0000000001250000000002770.20JMD   20072005                              N                                                                                          
+CI       334106780CDividend Payment                                  BNK-MND-0000000001260000000002770.20JMD   20072005                              N                                                                                          
+CI       244394493CDividend Payment                                  BNK-MND-0000000001270000000002770.20JMD   20072005                              N                                                                                          
+CI       064210750CDividend Payment                                  BNK-MND-0000000001280000000002052.00JMD   20072005                              N                                                                                          
+CI       301420250DDividend Payment                                  FOR Jul 20 DIVIDEND 0000000022634.20JMD   20072005                              Y                                                                                          

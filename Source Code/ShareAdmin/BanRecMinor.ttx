@@ -1,0 +1,13 @@
+PstDate	Date
+ChqNum	Number
+ClientId	Number
+ChqDat	Date		
+ChqAmt	Currency		
+RevalDat	Date		
+FolioMth	String	6
+ReconDat	Date
+DecDat	Date
+CliName	String	200						
+RecInd	boolean
+
+

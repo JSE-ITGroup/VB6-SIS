@@ -1,0 +1,4 @@
+Narration	String	50	
+PeriodDate	Date		
+Amount	Currency		
+TranType	String	1	

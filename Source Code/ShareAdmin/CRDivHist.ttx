@@ -1,0 +1,6 @@
+ChqDat	Date
+ChqNum	String	20
+ChqAmt	Currency
+ClientID	Long
+PayeeName	String	50
+Comments	String	30

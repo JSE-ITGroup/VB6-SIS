@@ -1,0 +1,10 @@
+PayeeName	String	50	
+ClientID	Number		
+ChqNum	String	20	
+ChqDat	Date
+ChqAmt	Currency		
+RepChqNo	String	20	
+UserID	String	10	
+TransDate	Date		
+SupervisorID	String	20	
+AuthorisedDate	Date		

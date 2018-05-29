@@ -1,0 +1,13 @@
+AccountNo	String	20
+ClientID	Number
+CliName	String	50
+PayTotal	Currency
+DistDesc	String	12
+ChqNo	String	20
+ChqAmt	Currency
+RepChqno	String	20
+PostDate	Date
+PayDate	Date
+UserID	String	10
+SupervisorID	String	10
+ChangeDate	Date

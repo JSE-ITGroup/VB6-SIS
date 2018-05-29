@@ -1,0 +1,9 @@
+ClientID	Number		
+CliName	String	50	
+AccountNo	String	20	
+ChqAmt	Currency		
+ChqDate	Date		
+ExceptionReason	String	30	
+ReconDate	Date
+CompName	String	50
+		

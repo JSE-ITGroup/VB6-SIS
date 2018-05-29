@@ -1,0 +1,12 @@
+ClientId	Number
+CertNo	Number
+CliName	String	50
+BonIss	Date
+Shares	Number					
+Allocated	Number
+UnAllocated	Number
+RecDate	Date		
+StkBase	Number
+StksTo	Number			
+Issuable	Number
+CompName	String	50	

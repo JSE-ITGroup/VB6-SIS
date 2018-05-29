@@ -1,0 +1,69 @@
+[Root]
+Most Recent Package=SDIActiveX
+
+
+[Package|SDIActiveX|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\Program Files\DevStudio\VB\Class
+
+[Package|SDIActiveX|Configure DAO ISAMs]
+Applicable=No
+
+[Package|SDIActiveX|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|SDIActiveX|Files Found]
+
+[Package|SDIActiveX|Files Released]
+
+[Package|SDIActiveX|Missing Dependency Information]
+
+[Package|SDIActiveX|Out-of-Date Dependency Information]
+
+[Package|SDIActiveX|Files Added]
+
+[Package|SDIActiveX|Files Removed]
+
+[Package|SDIActiveX|Files In Project]
+C:\Program Files\DevStudio\VB\Class\SDIActiveX.dll=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\olepro32.dll=Yes
+C:\WINDOWS\SYSTEM\asycfilt.dll=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\System\ADO\msado15.dll=Yes
+C:\Program Files\Common Files\System\ADO\msador15.dll=Yes
+
+[Package|SDIActiveX|Configure Registry Files]
+Applicable=
+
+[Package|SDIActiveX|Configure Remote Servers]
+Applicable=
+
+[Package|SDIActiveX|Install Locations]
+C:\Program Files\DevStudio\VB\Class\SDIActiveX.dll=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\System\ADO\msado15.dll=$(CommonFilesSys)\ADO
+C:\Program Files\Common Files\System\ADO\msador15.dll=$(CommonFilesSys)\ADO
+
+[Package|SDIActiveX|Configure Shared Files]
+Applicable=
+
+[Package|SDIActiveX|DepFile]
+DepCabFile=SDIActiveX.CAB
+DepCabRun=SDIActiveX.INF
+
+[Package|SDIActiveX|Package]
+PackageFolder=C:\Program Files\DevStudio\VB\Class
+ProjectFolder=C:\Program Files\DevStudio\VB\Class
+ServerSideCab=
+File1=C:\Program Files\DevStudio\VB\Class\SDIActiveX.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

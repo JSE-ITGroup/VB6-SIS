@@ -1,0 +1,12 @@
+ClientId	Long		1
+CliName	String	50	John Doe 
+CliAddr1	String	40	1 King Street
+CliAddr2	String	40	Kingston
+CliAddr3	String	40	Jam
+CliAddr4	String	40	WI
+CliAddr5	String	40	Extra
+DteOpened	Date		31-Jan-1999
+JntName1	String	50	Jane Doe 1
+JntName2	String	50	jane Doe 2
+JntName3	String	50	Jane Doe3
+JntEndDte	Date		

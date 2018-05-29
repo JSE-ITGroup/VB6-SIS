@@ -1,0 +1,9 @@
+CompName	String	50
+ClientId	Long	
+CliName	String	50	
+CliAddr1	String	40
+DteOpened	Date	
+Joint		Boolean
+Shares 		Number
+CatCode		String	2
+CatDesc		String	30

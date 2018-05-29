@@ -1,0 +1,7 @@
+Company 	String	50
+Location	String	20
+TranDate	Date
+StartNo		Number
+EndNo		Number
+NoOfChqs	Number
+Comment		String	30

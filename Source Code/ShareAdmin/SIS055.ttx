@@ -1,0 +1,13 @@
+CompName	String	50	
+TABLENO	Number
+FIELDID	String	12
+RECORDNO	String	10
+USERID	String	10
+CHGDATE	Date		
+NEWINFO	String	75
+OLDINFO	String	78
+FIELDDESC	String	30
+UserName	String	50
+CliName	String	50
+
+

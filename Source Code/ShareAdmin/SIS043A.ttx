@@ -1,0 +1,12 @@
+ClientId	Long			
+CliName	String	50	
+Shares	number			
+Joint		String	1	
+CompName	String	50	
+IssStocks	number
+CliAddr1	String	50
+CliAddr2	String	50
+CliAddr3	String	40
+CliAddr4	String	30
+CliAddr5	String	30
+		

@@ -1,0 +1,5 @@
+Compname	String	50	
+CatCode	String	2	
+CatDesc	String	30
+StkTax	Boolean		
+Hold		Boolean

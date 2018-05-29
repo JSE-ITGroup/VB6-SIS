@@ -1,0 +1,5 @@
+BnkAcnt	Number
+BatDate	Date
+ChqNo	Number
+ChqAmt	Currency
+TranDate	Date

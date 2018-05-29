@@ -1,0 +1,10 @@
+AccountNo	String	20
+FromLocation	String	20
+ToLocation	String	20
+StartNo	Number
+EndNo	Number
+Balance	Number
+TransferDate	Date
+UserID	String	10
+SupervisorID	String	10
+TransferID	Number	

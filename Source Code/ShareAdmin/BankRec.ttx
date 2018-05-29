@@ -1,0 +1,16 @@
+CompName	String	50
+PeriodDte	Date
+ChqNum	Number
+ClientId	Number
+ChqDat	Date		
+ChqAmt	Currency		
+RevalDat	Date		
+RepChqNo	Number
+FolioMth	String	6
+ReconDat	Date
+DecDat	Date
+CliName	String	50						
+ResCode	String	2	
+CatCode	String	2
+CatDesc	String	30	
+ResCtry	String	30	

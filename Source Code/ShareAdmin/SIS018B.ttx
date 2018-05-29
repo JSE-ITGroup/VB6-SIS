@@ -1,0 +1,14 @@
+ChqAmt	Currency
+BankID	String	6
+BnkName	String	50
+BnkAddr1	String	30
+BnkAddr2	String	25
+BnkAddr3	String	20
+ChqDat	Date
+PayType	String	1
+ChqNum	Number
+CompName	String	50
+
+
+
+	

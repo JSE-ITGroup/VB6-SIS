@@ -1,0 +1,13 @@
+CompName 	String	50
+AgmDte	Date	
+RecDate	Date
+ClientId	Long		
+CliName	String	50	 
+CliAddr1	String	40	
+CliAddr2	String	40	
+CliAddr3	String	40	
+CliAddr4	String	40	
+CliAddr5	String	40	
+Shares	Number
+Active	Number
+Transfered	Number

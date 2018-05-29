@@ -1,0 +1,23 @@
+CompName	String	50	
+ParVaue	Currency		
+RecDate	Date		
+ChqDate	Date		
+PayAmt	Currency		
+IncTyp	String	1	
+DecDaye	Date		
+PayTyp	String	1	
+ClientId	Number		
+GrossPymnt	Currency		
+WhldTax	Currency		
+Shares	Number
+ChqNum	String	20		
+ResCode	String	2	
+CatCode	String	2
+CliName	String	50	
+CatDesc	String	30	
+ResCtry	String	30	
+CliAddr1	String	40
+CliAddr2	String	40
+CliAddr3	String	40
+CliAddr4	String	40
+USRate	Currency

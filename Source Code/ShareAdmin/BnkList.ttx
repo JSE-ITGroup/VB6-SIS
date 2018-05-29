@@ -1,0 +1,8 @@
+ChqAmt	Currency		
+CliName	String	50	
+AccountNo	String	16	
+NameOnAccount	String	50	
+PayType	String	1	
+ChqDat	Date
+BnkName	String	50	
+CompName	String	50

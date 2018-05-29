@@ -1,0 +1,6 @@
+CompName	String	50	
+ClientId	Long		
+CertNo	Long		
+CShares	Long		
+CliName	String	50	
+Shares	Long		

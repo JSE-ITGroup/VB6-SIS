@@ -1,0 +1,11 @@
+ActionType	String	25	
+StartNo	Number		
+EndNo	Number		
+NoOfChqs	Number		
+ExchABBR	String	4
+ChqDate	Date
+CompName	String	50
+Narration	String	20
+GrpHeader	String	1
+userName	String	50
+AccountNo	String	20	

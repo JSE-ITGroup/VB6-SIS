@@ -1,0 +1,13 @@
+CompName	String	50
+AGMDte	Date
+DteLstRet	Date
+ClientId	Long		1
+CliName	String	50	John Doe 
+CliAddr1	String	40	1 King Street
+CliAddr2	String	40	Kingston
+CliAddr3	String	40	Jam
+CliAddr4	String	40	WI
+CliAddr5	String	40	Extra
+ActShares	Long
+CanShares	Long
+

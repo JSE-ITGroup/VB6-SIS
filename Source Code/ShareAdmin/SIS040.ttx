@@ -1,0 +1,8 @@
+CompName	String	50
+BrokerId	Number
+CliName	String	50
+BalStrtPer	Number	
+ShrBuy	Number
+ShrSell	Number
+ShrHeld	Number
+	

@@ -1,0 +1,19 @@
+CompName	String	50	
+PeriodDte	Date		
+TrnBatch	String	8		
+Form		String	8		
+StkLineNo	Number		
+ClientId	Number		
+TrnCode	String	1		
+Status	String	1
+FrCert	Number
+CanDate	Date
+FrShares	Number
+IssDate	Date
+Shares	Number
+CertNo	Number		
+CliName	String	50	
+CliAddr1	String	40	
+CliAddr2	String	40
+CliAddr3	String	40	
+CliAddr4	String	40		

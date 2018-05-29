@@ -1,0 +1,6 @@
+AccountNo	String	20
+PayAmt	Currency
+Shareholders	Number
+PayType	String	1
+Register	String	20
+ReconTypes	String	6

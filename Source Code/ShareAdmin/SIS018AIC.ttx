@@ -1,0 +1,27 @@
+ClientId	Number
+GrossPymnt	Currency
+WhldTax	Currency
+Shares	Number					
+ChqNum	String	20
+InterestDate	Date		
+ChqDate	Date
+PayPer	Number
+IncTyp	String	9			
+TaxRate	Number
+PayeeName	String	80
+MndAddr1	String	35
+MndAddr2	String	30
+MndAcntNme	String	50
+MndAccnt	String	16
+CliName	String	50
+Addr1		String	60
+Addr2		String	60
+Addr3		String	60
+Addr4		String	60
+Addr5		String	60
+ParValue	Currency	
+Comment	String	40
+
+
+
+	

@@ -1,0 +1,7 @@
+AccountNo	Number
+Descript	string	50
+TransDate	Date
+DBCR	String	1
+Authorised	Boolean
+ChqNo	Number
+Amount	Currency

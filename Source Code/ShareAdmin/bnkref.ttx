@@ -1,0 +1,8 @@
+CompName	String	50
+BankId	String	6	
+BnkName	String	50	
+BnkAddr1	String	30	
+BnkAddr2	String	25	
+BnkAddr3	String	20	
+BnkAddr4	String	20	
+BnkAddr5	String	20	

@@ -1,0 +1,11 @@
+CompName	String	50	
+Broker	Long
+CliName1	String	50
+CertNo	Number
+Batch	String	8
+Form	String	8
+ClientID	Long
+TfrDate	Date
+BuyShares	Number
+SellShares	Number
+CliName	String	50

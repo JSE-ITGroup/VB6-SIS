@@ -1,0 +1,13 @@
+CompName	String	50	
+Broker	Long
+CertNo	Number
+Form	String	8
+TfrDat	Date
+BuyShares	Number
+SellShares	Number
+Batch	String	8
+TrnCode	String	1
+ClientID	Long
+BrkName	String	50
+CliName	String	50
+BalStrtPer	Number

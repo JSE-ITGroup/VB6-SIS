@@ -1,0 +1,7 @@
+ClientID	Number		
+ClientName	String	50	
+Currency	String	3	
+Address1	String	40	
+Address2	String	30	
+ChqDate	Date		
+ChqAmt	Currency		

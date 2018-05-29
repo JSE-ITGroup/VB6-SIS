@@ -1,0 +1,919 @@
+[Root]
+Most Recent Package=SIS Setup Package
+
+
+[Package|Standard Setup Package 1|paulsis]
+Icon1=SIS.exe
+Title1=paulsis
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=d:\Program Files\ShareAdmin\Support
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+SISHELP.HLP=C:\Program Files\SIS\SISHELP.HLP
+sscsdk32.dll=C:\Program Files\Seagate Software\SSChart\sscsdk32.dll
+
+[Package|Standard Setup Package 1|Files Released]
+User.DLL=
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\Program Files\DevStudio\Vb\Class\SISRept.dll=
+C:\Program Files\SIS\SDIActiveX.dll=
+C:\Program Files\Microsoft Office\Office\EXCEL8.OLB=
+C:\Program Files\Microsoft Office\Office\MSWORD8.OLB=
+C:\WINDOWS\SYSTEM\CRAXDRT.DLL=
+C:\Program Files\Microsoft Office\Office\MSACC8.OLB=
+C:\Program Files\SIS\SISRept.dll=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\SSDW3B32.OCX=
+C:\WINDOWS\SYSTEM\SSDW3A32.OCX=
+D:\Program Files\DevStudio\VB\Class\SDIActiveX.dll=
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Office\Office\MSACC8.OLB=Yes
+C:\Program Files\Seagate Software\Viewers\ActiveXViewer\crviewer.dll=Yes
+C:\WINDOWS\SYSTEM\CRAXDRT.DLL=Yes
+C:\Program Files\Microsoft Office\Office\MSWORD8.OLB=Yes
+C:\Program Files\Microsoft Office\Office\EXCEL8.OLB=Yes
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSMASK32.OCX=Yes
+C:\WINDOWS\SYSTEM\COMCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM\MFC42.DLL=Yes
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=Yes
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Program Files\SIS\SISHELP.HLP=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\SYSTEM\IMPLODE.DLL=Yes
+C:\WINDOWS\SYSTEM\crpaig32.dll=Yes
+C:\WINDOWS\SYSTEM\P2smon.dll=Yes
+C:\Program Files\Sheridan\DataWidgets\ssdw3a32.ocx=Yes
+C:\Program Files\Sheridan\DataWidgets\ssdw3b32.ocx=Yes
+C:\Program Files\Sheridan\DataWidgets\ssmedt32.dll=Yes
+C:\Program Files\Sheridan\DataWidgets\ssprn32.dll=Yes
+D:\Program Files\DevStudio\VB\ShareAdmin\SIS.exe=Yes
+C:\Program Files\Seagate Software\SSChart\sscsdk32.dll=Yes
+D:\Program Files\DevStudio\VB\Class\SDIActiveX.dll=Yes
+D:\Program Files\DevStudio\VB\Class\SISRept.dll=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\Program Files\DevStudio\Vb\ShareAdmin\SIS.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Office\Office\MSACC8.OLB=$(WinSysPath)
+C:\Program Files\Seagate Software\Viewers\ActiveXViewer\crviewer.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\CRAXDRT.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office\MSWORD8.OLB=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office\EXCEL8.OLB=$(WinSysPath)
+C:\Program Files\SIS\SDIActiveX.dll=$(WinSysPath)
+C:\Program Files\DevStudio\Vb\Class\SISRept.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\SSDW3A32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MFC42.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\SSDW3B32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\SSMEDT32.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\SSPRN32.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\Program Files\SIS\SISHELP.HLP=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\IMPLODE.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\crpaig32.dll=$(WinSysPath)
+\program files\seagate software\sschart\SSCSDK32.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\P2smon.dll=$(WinSysPath)
+C:\Program Files\SIS\SISRept.dll=$(WinSysPath)
+C:\Program Files\Sheridan\DataWidgets\ssdw3a32.ocx=$(WinSysPath)
+C:\Program Files\Sheridan\DataWidgets\ssdw3b32.ocx=$(WinSysPath)
+C:\Program Files\Sheridan\DataWidgets\ssmedt32.dll=$(WinSysPath)
+C:\Program Files\Sheridan\DataWidgets\ssprn32.dll=$(WinSysPath)
+D:\Program Files\DevStudio\VB\ShareAdmin\SIS.exe=$(AppPath)
+C:\Program Files\Seagate Software\SSChart\sscsdk32.dll=$(WinSysPath)
+D:\Program Files\DevStudio\VB\Class\SDIActiveX.dll=$(AppPath)
+D:\Program Files\DevStudio\VB\Class\SISRept.dll=$(WinSysPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\Program Files\DevStudio\Vb\ShareAdmin\SIS.exe=No
+C:\Program Files\SIS\SISHELP.HLP=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\Program Files\DevStudio\VB\ShareAdmin\SIS.exe=No
+D:\Program Files\DevStudio\VB\Class\SDIActiveX.dll=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=multi
+Size=1.2 MB
+Title=NCB SIS
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=NCB SIS
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|NCB SIS]
+Icon1=SIS.exe
+Title1=NCB SIS
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=d:\Program Files\ShareAdmin\Support
+ProjectFolder=D:\Program Files\DevStudio\VB\ShareAdmin
+ServerSideCab=
+File1=d:\Program Files\ShareAdmin\Support\setup.exe
+File2=d:\Program Files\ShareAdmin\Support\Setup.Lst
+File3=d:\Program Files\ShareAdmin\Support\SIS1.CAB
+File4=d:\Program Files\ShareAdmin\Support\SIS2.CAB
+File5=d:\Program Files\ShareAdmin\Support\SIS3.CAB
+File6=d:\Program Files\ShareAdmin\Support\SIS4.CAB
+File7=d:\Program Files\ShareAdmin\Support\SIS5.CAB
+File8=d:\Program Files\ShareAdmin\Support\SIS6.CAB
+File9=d:\Program Files\ShareAdmin\Support\SIS7.CAB
+File10=d:\Program Files\ShareAdmin\Support\SIS8.CAB
+File11=d:\Program Files\ShareAdmin\Support\SIS9.CAB
+File12=d:\Program Files\ShareAdmin\Support\SIS10.CAB
+File13=d:\Program Files\ShareAdmin\Support\SIS11.CAB
+File14=d:\Program Files\ShareAdmin\Support\SIS12.CAB
+File15=d:\Program Files\ShareAdmin\Support\SIS13.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz
+
+
+[Package|NCB SIS Setup Package|NCB SIS]
+Icon1=SIS.exe
+Title1=NCB SIS
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|NCB SIS Setup Package|paulsis]
+Icon1=SIS.exe
+Title1=paulsis
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|NCB SIS Setup Package|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Development Apps\Synchronized Source - Nominees\Files\Deployment
+
+[Package|NCB SIS Setup Package|Configure DAO ISAMs]
+Applicable=No
+
+[Package|NCB SIS Setup Package|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|NCB SIS Setup Package|Files Found]
+sscsdk32.dll=C:\Program Files\Seagate Software\SSChart\sscsdk32.dll
+
+[Package|NCB SIS Setup Package|Files Released]
+User.DLL=
+SISHELP.HLP=
+
+[Package|NCB SIS Setup Package|Missing Dependency Information]
+C:\Program Files\DevStudio\Vb\Class\SISRept.dll=
+C:\Program Files\SIS\SDIActiveX.dll=
+C:\Program Files\Microsoft Office\Office\EXCEL8.OLB=
+C:\Program Files\Microsoft Office\Office\MSWORD8.OLB=
+C:\WINDOWS\SYSTEM\CRAXDRT.DLL=
+C:\Program Files\Microsoft Office\Office\MSACC8.OLB=
+C:\Program Files\SIS\SISRept.dll=
+C:\Windows\SYSTEM\SISREPT.DLL=
+C:\Windows\SYSTEM\CRVIEWER.DLL=
+C:\WINDOWS\SYSTEM\SDIActiveX.dll=
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=
+C:\Program Files\Microsoft Office\Office\MSWORD9.OLB=
+C:\Program Files\Microsoft Office\Office\MSACC9.OLB=
+C:\WINDOWS\SYSTEM\ssdw3b32.ocx=
+C:\WINDOWS\SYSTEM\ssdw3a32.ocx=
+C:\Program Files\Common Files\SYSTEM\ADO\msado25.tlb=
+C:\WINDOWS\SYSTEM\p2smon.dll=
+C:\WINDOWS\SYSTEM\crpaig32.dll=
+C:\WINDOWS\SYSTEM\p2sodbc.dll=
+C:\Development Apps\TEST SIS\Class\SISRept.dll=
+C:\Program Files\Microsoft Office\Office10\EXCEL.EXE=
+C:\Program Files\Microsoft Office\Office10\MSWORD.OLB=
+C:\Program Files\Microsoft Office\Office10\MSACC.OLB=
+C:\Development Apps\Synchronized Source - Nominees\Class\SISRept.dll=
+C:\Development Apps\TEST SIS\vbSendMail\vbSendMail.dll=
+C:\WINDOWS\Crystal\u2dapp.dll=
+C:\WINDOWS\Crystal\u2ddisk.dll=
+C:\WINDOWS\Crystal\u2dmapi.dll=
+C:\WINDOWS\Crystal\u2fcr.dll=
+C:\WINDOWS\Crystal\u2fsepv.dll=
+C:\WINDOWS\Crystal\u2ftext.dll=
+C:\WINDOWS\Crystal\crxf_pdf.dll=
+C:\WINDOWS\Crystal\crxf_rtf.dll=
+C:\WINDOWS\system32\msvcp60.dll=
+C:\WINDOWS\system32\msvcirt.dll=
+C:\Program Files\Common Files\Microsoft Shared\CDO\CDOEX.DLL=
+C:\Program Files\Seagate Software\Shared\crtslv.dll=
+C:\Program Files\Seagate Software\Shared\ExportModeller.dll=
+
+[Package|NCB SIS Setup Package|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\SSDW3B32.OCX=
+C:\WINDOWS\SYSTEM\SSDW3A32.OCX=
+D:\Program Files\DevStudio\VB\Class\SDIActiveX.dll=
+C:\Windows\SYSTEM\RICHTX32.OCX=
+C:\Program Files\Infragistics\Data Widgets\ssdw3a32.ocx=
+C:\Windows\SYSTEM\COMCTL32.OCX=
+C:\Windows\SYSTEM\MSMASK32.OCX=
+C:\Windows\SYSTEM\COMDLG32.OCX=
+C:\Windows\SYSTEM\TABCTL32.OCX=
+C:\Development Apps\SIS\Class\SDIActiveX.dll=
+C:\Development Apps\TEST SIS\Class\SDIActiveX.dll=
+C:\Program Files\Seagate Software\Viewers\ActiveXViewer\CRViewer.dll=
+C:\Program Files\Seagate Software\Report Designer Component\craxddrt.dll=
+C:\Program Files\Microsoft Office\Office10\MSCAL.OCX=
+C:\WINDOWS\system32\msstdfmt.dll=
+
+[Package|NCB SIS Setup Package|Files Added]
+C:\WINDOWS\SYSTEM\implode.dll=
+C:\WINDOWS\SYSTEM\p2smon.dll=
+C:\WINDOWS\SYSTEM\crpaig32.dll=
+C:\WINDOWS\SYSTEM\p2sodbc.dll=
+C:\WINDOWS\Crystal\u2dapp.dll=
+C:\WINDOWS\Crystal\u2ddisk.dll=
+C:\WINDOWS\Crystal\u2dmapi.dll=
+C:\WINDOWS\Crystal\u2fcr.dll=
+C:\WINDOWS\Crystal\u2fsepv.dll=
+C:\WINDOWS\Crystal\u2ftext.dll=
+C:\WINDOWS\Crystal\crxf_pdf.dll=
+C:\WINDOWS\Crystal\crxf_rtf.dll=
+C:\WINDOWS\system32\msvcp60.dll=
+C:\WINDOWS\system32\msvcirt.dll=
+C:\Program Files\Seagate Software\Shared\crtslv.dll=
+C:\Program Files\Seagate Software\Shared\ExportModeller.dll=
+
+[Package|NCB SIS Setup Package|Files Removed]
+
+[Package|NCB SIS Setup Package|Files In Project]
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\WINDOWS\SYSTEM32\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM32\IMPLODE.DLL=Yes
+C:\WINDOWS\SYSTEM32\P2smon.dll=Yes
+C:\Program Files\Microsoft Office\Office10\MSWORD.OLB=Yes
+C:\Program Files\Microsoft Office\Office10\EXCEL.EXE=Yes
+C:\Program Files\Seagate Software\Viewers\ActiveXViewer\CRViewer.dll=Yes
+C:\Development Apps\TEST SIS\Class\SDIActiveX.dll=Yes
+C:\WINDOWS\SYSTEM32\TABCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM32\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM32\msmask32.ocx=Yes
+C:\WINDOWS\SYSTEM32\comctl32.ocx=Yes
+C:\Program Files\Infragistics\Data Widgets\ssdw3a32.ocx=Yes
+C:\WINDOWS\SYSTEM32\MFC42.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSVCRT.DLL=Yes
+C:\Program Files\Infragistics\Data Widgets\ssdw3b32.ocx=Yes
+C:\Program Files\Infragistics\Data Widgets\ssmedt32.dll=Yes
+C:\Program Files\Infragistics\Data Widgets\ssprn32.dll=Yes
+C:\WINDOWS\SYSTEM32\Richtx32.ocx=Yes
+C:\WINDOWS\SYSTEM32\MSCOMCT2.OCX=Yes
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=Yes
+C:\Program Files\Seagate Software\Report Designer Component\craxdrt.dll=Yes
+C:\Program Files\Seagate Software\Report Designer Component\craxddrt.dll=Yes
+C:\WINDOWS\SYSTEM32\Crpaig80.dll=Yes
+\program files\seagate software\shared\SSCSDK80.DLL=Yes
+\program files\seagate software\shared\PG32CONV.DLL=Yes
+C:\Development Apps\Synchronized Source - Nominees\ShareAdmin\SIS.exe=Yes
+C:\WINDOWS\system32\msstdfmt.dll=Yes
+C:\Development Apps\Synchronized Source - Nominees\Class\SISRept.dll=Yes
+C:\Program Files\Microsoft Office\Office10\MSCAL.OCX=Yes
+C:\WINDOWS\system32\MSHFLXGD.OCX=Yes
+C:\WINDOWS\Crystal\u2dapp.dll=Yes
+C:\WINDOWS\Crystal\u2ddisk.dll=Yes
+C:\WINDOWS\Crystal\u2dmapi.dll=Yes
+C:\WINDOWS\Crystal\u2fcr.dll=Yes
+C:\WINDOWS\Crystal\u2fsepv.dll=Yes
+C:\WINDOWS\Crystal\u2ftext.dll=Yes
+C:\WINDOWS\Crystal\crxf_pdf.dll=Yes
+C:\WINDOWS\Crystal\crxf_rtf.dll=Yes
+C:\Development Apps\Synchronized Source - Nominees\Class\vbSendMail.dll=Yes
+C:\Program Files\Common Files\Microsoft Shared\CDO\CDOEX.DLL=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\Program Files\Seagate Software\Shared\crtslv.dll=Yes
+C:\Program Files\Seagate Software\Shared\ExportModeller.dll=Yes
+
+[Package|NCB SIS Setup Package|Configure Registry Files]
+Applicable=No
+
+[Package|NCB SIS Setup Package|Configure Remote Servers]
+Applicable=No
+
+[Package|NCB SIS Setup Package|Install Locations]
+C:\Program Files\DevStudio\Vb\ShareAdmin\SIS.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Office\Office\MSACC8.OLB=$(WinSysPath)
+C:\Program Files\Seagate Software\Viewers\ActiveXViewer\crviewer.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\CRAXDRT.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office\MSWORD8.OLB=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office\EXCEL8.OLB=$(WinSysPath)
+C:\Program Files\SIS\SDIActiveX.dll=$(WinSysPath)
+C:\Program Files\DevStudio\Vb\Class\SISRept.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\SSDW3A32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MFC42.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\SSDW3B32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\SSMEDT32.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\SSPRN32.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\Program Files\SIS\SISHELP.HLP=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\IMPLODE.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\crpaig32.dll=$(WinSysPath)
+\program files\seagate software\sschart\SSCSDK32.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\P2smon.dll=$(WinSysPath)
+C:\Program Files\SIS\SISRept.dll=$(WinSysPath)
+C:\Program Files\Sheridan\DataWidgets\ssdw3a32.ocx=$(WinSysPath)
+C:\Program Files\Sheridan\DataWidgets\ssdw3b32.ocx=$(WinSysPath)
+C:\Program Files\Sheridan\DataWidgets\ssmedt32.dll=$(WinSysPath)
+C:\Program Files\Sheridan\DataWidgets\ssprn32.dll=$(WinSysPath)
+D:\Program Files\DevStudio\VB\ShareAdmin\SIS.exe=$(AppPath)
+C:\Program Files\Seagate Software\SSChart\sscsdk32.dll=$(WinSysPath)
+D:\Program Files\DevStudio\VB\Class\SDIActiveX.dll=$(AppPath)
+D:\Program Files\DevStudio\VB\Class\SISRept.dll=$(WinSysPath)
+C:\Development Apps\SIS\ShareAdmin\SIS.exe=$(AppPath)
+C:\Windows\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Windows\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Windows\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Windows\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Windows\SYSTEM\CRVIEWER.DLL=$(WinSysPath)
+C:\Development Apps\SIS\Class\SDIActiveX.dll=$(AppPath)
+C:\Windows\SYSTEM\SISREPT.DLL=$(WinSysPath)
+C:\Program Files\Infragistics\Data Widgets\ssdw3a32.ocx=$(WinSysPath)
+C:\Program Files\Infragistics\Data Widgets\ssdw3b32.ocx=$(WinSysPath)
+C:\Program Files\Infragistics\Data Widgets\ssmedt32.dll=$(WinSysPath)
+C:\Program Files\Infragistics\Data Widgets\ssprn32.dll=$(WinSysPath)
+C:\Development Applications\SIS\ShareAdmin\SIS.exe=$(AppPath)
+C:\Program Files\Microsoft Office\Office\MSACC9.OLB=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office\MSWORD9.OLB=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=$(WinSysPath)
+C:\WINDOWS\SYSTEM\SDIActiveX.dll=$(WinSysPath)
+C:\Development Applications\SIS\ShareAdmin\Package\Support\SISHELP.HLP=$(AppPath)
+C:\Program Files\Common Files\SYSTEM\ADO\msado25.tlb=$(WinSysPath)
+C:\WINDOWS\SYSTEM\p2sodbc.dll=$(WinSysPath)
+C:\Development Apps\TEST SIS\ShareAdmin\SIS.exe=$(AppPath)
+C:\WINDOWS\SYSTEM32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Office\Office10\MSACC.OLB=$(WinSysPath)
+C:\Program Files\Seagate Software\Crystal Reports\craxdrt.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\IMPLODE.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\crpaig32.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\SSCSDK32.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\P2smon.dll=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office10\MSWORD.OLB=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office10\EXCEL.EXE=$(AppPath)
+C:\Development Apps\TEST SIS\Class\SISRept.dll=$(AppPath)
+C:\Development Apps\TEST SIS\Class\SDIActiveX.dll=$(AppPath)
+C:\WINDOWS\SYSTEM32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\msmask32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\comctl32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MFC42.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\Richtx32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Seagate Software\Report Designer Component\craxdrt.dll=$(WinSysPath)
+C:\Program Files\Seagate Software\Report Designer Component\craxddrt.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\Crpaig80.dll=$(WinSysPath)
+\program files\seagate software\shared\SSCSDK80.DLL=$(WinSysPath)
+\program files\seagate software\shared\PG32CONV.DLL=$(AppPath)
+C:\Development Apps\Synchronized Source - Nominees\ShareAdmin\SIS.exe=$(AppPath)
+C:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+C:\Development Apps\TEST SIS\vbSendMail\vbSendMail.dll=$(WinSysPath)
+C:\Development Apps\Synchronized Source - Nominees\Class\SISRept.dll=$(AppPath)
+C:\Program Files\Microsoft Office\Office10\MSCAL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSHFLXGD.OCX=$(WinSysPath)
+C:\WINDOWS\Crystal\u2dapp.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2ddisk.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2dmapi.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2fcr.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2fsepv.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2ftext.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\crxf_pdf.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\crxf_rtf.dll=$(WinSysPath)
+C:\WINDOWS\system32\msvcp60.dll=$(WinSysPath)
+C:\WINDOWS\system32\msvcirt.dll=$(WinSysPath)
+C:\Development Apps\Synchronized Source - Nominees\Class\vbSendMail.dll=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\CDO\CDOEX.DLL=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\Program Files\Seagate Software\Shared\crtslv.dll=$(WinSysPath)
+C:\Program Files\Seagate Software\Shared\ExportModeller.dll=$(WinSysPath)
+
+[Package|NCB SIS Setup Package|Configure Shared Files]
+Applicable=Yes
+C:\Program Files\DevStudio\Vb\ShareAdmin\SIS.exe=No
+C:\Program Files\SIS\SISHELP.HLP=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\Program Files\DevStudio\VB\ShareAdmin\SIS.exe=No
+D:\Program Files\DevStudio\VB\Class\SDIActiveX.dll=No
+C:\Development Apps\SIS\ShareAdmin\SIS.exe=No
+C:\Development Apps\SIS\Class\SDIActiveX.dll=No
+C:\Development Applications\SIS\ShareAdmin\SIS.exe=No
+C:\Development Applications\SIS\ShareAdmin\Package\Support\SISHELP.HLP=No
+C:\Development Apps\TEST SIS\ShareAdmin\SIS.exe=No
+C:\Program Files\Microsoft Office\Office10\EXCEL.EXE=No
+C:\Development Apps\TEST SIS\Class\SISRept.dll=Yes
+C:\Development Apps\TEST SIS\Class\SDIActiveX.dll=No
+\program files\seagate software\shared\PG32CONV.DLL=No
+C:\Development Apps\Synchronized Source - Nominees\ShareAdmin\SIS.exe=No
+C:\Development Apps\Synchronized Source - Nominees\Class\SISRept.dll=No
+
+[Package|NCB SIS Setup Package|Distribution]
+Type=single
+Size=1.2 MB
+Title=Shareholder Information System
+
+[Package|NCB SIS Setup Package|Package]
+PackageFolder=C:\Development Apps\Synchronized Source - Nominees\Files\Deployment
+ProjectFolder=C:\Development Apps\Synchronized Source - Nominees\ShareAdmin
+ServerSideCab=
+File1=C:\Development Apps\Synchronized Source - Nominees\Files\Deployment\setup.exe
+File2=C:\Development Apps\Synchronized Source - Nominees\Files\Deployment\Setup.Lst
+File3=C:\Development Apps\Synchronized Source - Nominees\Files\Deployment\SIS.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|NCB SIS Setup Package|IconGroups]
+Group0=Shareholder information system
+PrivateGroup0=0
+Parent0=$(Programs)
+
+[Package|NCB SIS Setup Package|Shareholder information system]
+Icon1=SIS.exe
+Title1=SIS
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|SIS Setup Package|NCB SIS]
+Icon1=SIS.exe
+Title1=NCB SIS
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|SIS Setup Package|paulsis]
+Icon1=SIS.exe
+Title1=paulsis
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|SIS Setup Package|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Development Apps\Synchronized Source - Nominees\Files\Deployment
+
+[Package|SIS Setup Package|Configure DAO ISAMs]
+Applicable=No
+
+[Package|SIS Setup Package|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|SIS Setup Package|Files Found]
+sscsdk32.dll=C:\Program Files\Seagate Software\SSChart\sscsdk32.dll
+p2bbde.dll=C:\Development Apps\Crystal Report 8\Windows\Crystal\p2bbde.dll
+P2bbnd.dll=C:\Development Apps\Crystal Report 8\Windows\System32\P2bbnd.dll
+u25store.dll=C:\Development Apps\GroupLife\SOURCECODE\Package\Support\u25store.dll
+
+[Package|SIS Setup Package|Files Released]
+User.DLL=
+SISHELP.HLP=
+Crystal=
+
+[Package|SIS Setup Package|Missing Dependency Information]
+C:\Program Files\DevStudio\Vb\Class\SISRept.dll=
+C:\Program Files\SIS\SDIActiveX.dll=
+C:\Program Files\Microsoft Office\Office\EXCEL8.OLB=
+C:\Program Files\Microsoft Office\Office\MSWORD8.OLB=
+C:\WINDOWS\SYSTEM\CRAXDRT.DLL=
+C:\Program Files\Microsoft Office\Office\MSACC8.OLB=
+C:\Program Files\SIS\SISRept.dll=
+C:\Windows\SYSTEM\SISREPT.DLL=
+C:\Windows\SYSTEM\CRVIEWER.DLL=
+C:\WINDOWS\SYSTEM\SDIActiveX.dll=
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=
+C:\Program Files\Microsoft Office\Office\MSWORD9.OLB=
+C:\Program Files\Microsoft Office\Office\MSACC9.OLB=
+C:\WINDOWS\SYSTEM\ssdw3b32.ocx=
+C:\WINDOWS\SYSTEM\ssdw3a32.ocx=
+C:\Program Files\Common Files\SYSTEM\ADO\msado25.tlb=
+C:\WINDOWS\SYSTEM\p2smon.dll=
+C:\WINDOWS\SYSTEM\crpaig32.dll=
+C:\WINDOWS\SYSTEM\p2sodbc.dll=
+C:\Development Apps\TEST SIS\Class\SISRept.dll=
+C:\Program Files\Microsoft Office\Office10\EXCEL.EXE=
+C:\Program Files\Microsoft Office\Office10\MSWORD.OLB=
+C:\Program Files\Microsoft Office\Office10\MSACC.OLB=
+C:\Development Apps\Synchronized Source - Nominees\Class\SISRept.dll=
+C:\Development Apps\TEST SIS\vbSendMail\vbSendMail.dll=
+C:\WINDOWS\Crystal\u2dapp.dll=
+C:\WINDOWS\Crystal\u2ddisk.dll=
+C:\WINDOWS\Crystal\u2dmapi.dll=
+C:\WINDOWS\Crystal\u2fcr.dll=
+C:\WINDOWS\Crystal\u2fsepv.dll=
+C:\WINDOWS\Crystal\u2ftext.dll=
+C:\WINDOWS\Crystal\crxf_pdf.dll=
+C:\WINDOWS\Crystal\crxf_rtf.dll=
+C:\WINDOWS\system32\msvcp60.dll=
+C:\WINDOWS\system32\msvcirt.dll=
+C:\Program Files\Common Files\Microsoft Shared\CDO\CDOEX.DLL=
+C:\Program Files\Seagate Software\Shared\crtslv.dll=
+C:\Program Files\Seagate Software\Shared\ExportModeller.dll=
+
+[Package|SIS Setup Package|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\SSDW3B32.OCX=
+C:\WINDOWS\SYSTEM\SSDW3A32.OCX=
+D:\Program Files\DevStudio\VB\Class\SDIActiveX.dll=
+C:\Windows\SYSTEM\RICHTX32.OCX=
+C:\Program Files\Infragistics\Data Widgets\ssdw3a32.ocx=
+C:\Windows\SYSTEM\COMCTL32.OCX=
+C:\Windows\SYSTEM\MSMASK32.OCX=
+C:\Windows\SYSTEM\COMDLG32.OCX=
+C:\Windows\SYSTEM\TABCTL32.OCX=
+C:\Development Apps\SIS\Class\SDIActiveX.dll=
+C:\Development Apps\TEST SIS\Class\SDIActiveX.dll=
+C:\Program Files\Seagate Software\Viewers\ActiveXViewer\CRViewer.dll=
+C:\Program Files\Seagate Software\Report Designer Component\craxddrt.dll=
+C:\Program Files\Microsoft Office\Office10\MSCAL.OCX=
+C:\WINDOWS\system32\msstdfmt.dll=
+
+[Package|SIS Setup Package|Files Added]
+C:\WINDOWS\SYSTEM\implode.dll=
+C:\WINDOWS\SYSTEM\p2smon.dll=
+C:\WINDOWS\SYSTEM\crpaig32.dll=
+C:\WINDOWS\SYSTEM\p2sodbc.dll=
+C:\WINDOWS\Crystal\u2dapp.dll=
+C:\WINDOWS\Crystal\u2ddisk.dll=
+C:\WINDOWS\Crystal\u2dmapi.dll=
+C:\WINDOWS\Crystal\u2fcr.dll=
+C:\WINDOWS\Crystal\u2fsepv.dll=
+C:\WINDOWS\Crystal\u2ftext.dll=
+C:\WINDOWS\Crystal\crxf_pdf.dll=
+C:\WINDOWS\Crystal\crxf_rtf.dll=
+C:\WINDOWS\system32\msvcp60.dll=
+C:\WINDOWS\system32\msvcirt.dll=
+C:\Program Files\Seagate Software\Shared\crtslv.dll=
+C:\Program Files\Seagate Software\Shared\ExportModeller.dll=
+C:\WINDOWS\system32\comctl32.dll=
+C:\WINDOWS\system32\comdlg32.dll=
+C:\WINDOWS\system32\crpe32.dll=
+
+[Package|SIS Setup Package|Files Removed]
+c:\program files\microsoft office\office10\excel.exe=
+
+[Package|SIS Setup Package|Files In Project]
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\WINDOWS\SYSTEM32\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM32\IMPLODE.DLL=Yes
+C:\WINDOWS\SYSTEM32\P2smon.dll=Yes
+C:\Program Files\Microsoft Office\Office10\MSWORD.OLB=Yes
+C:\Program Files\Microsoft Office\Office10\EXCEL.EXE=No
+C:\Program Files\Seagate Software\Viewers\ActiveXViewer\CRViewer.dll=Yes
+C:\Development Apps\TEST SIS\Class\SDIActiveX.dll=Yes
+C:\WINDOWS\SYSTEM32\TABCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM32\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM32\msmask32.ocx=Yes
+C:\WINDOWS\SYSTEM32\comctl32.ocx=Yes
+C:\Program Files\Infragistics\Data Widgets\ssdw3a32.ocx=Yes
+C:\WINDOWS\SYSTEM32\MFC42.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSVCRT.DLL=Yes
+C:\Program Files\Infragistics\Data Widgets\ssdw3b32.ocx=Yes
+C:\Program Files\Infragistics\Data Widgets\ssmedt32.dll=Yes
+C:\Program Files\Infragistics\Data Widgets\ssprn32.dll=Yes
+C:\WINDOWS\SYSTEM32\Richtx32.ocx=Yes
+C:\WINDOWS\SYSTEM32\MSCOMCT2.OCX=Yes
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=Yes
+C:\Program Files\Seagate Software\Report Designer Component\craxdrt.dll=Yes
+C:\Program Files\Seagate Software\Report Designer Component\craxddrt.dll=Yes
+C:\WINDOWS\SYSTEM32\Crpaig80.dll=Yes
+\program files\seagate software\shared\SSCSDK80.DLL=Yes
+\program files\seagate software\shared\PG32CONV.DLL=Yes
+C:\Development Apps\Synchronized Source - Nominees\ShareAdmin\SIS.exe=Yes
+C:\WINDOWS\system32\msstdfmt.dll=Yes
+C:\Development Apps\Synchronized Source - Nominees\Class\SISRept.dll=Yes
+C:\Program Files\Microsoft Office\Office10\MSCAL.OCX=Yes
+C:\WINDOWS\system32\MSHFLXGD.OCX=Yes
+C:\WINDOWS\Crystal\u2dapp.dll=Yes
+C:\WINDOWS\Crystal\u2ddisk.dll=Yes
+C:\WINDOWS\Crystal\u2dmapi.dll=Yes
+C:\WINDOWS\Crystal\u2fcr.dll=Yes
+C:\WINDOWS\Crystal\u2fsepv.dll=Yes
+C:\WINDOWS\Crystal\u2ftext.dll=Yes
+C:\WINDOWS\Crystal\crxf_pdf.dll=Yes
+C:\WINDOWS\Crystal\crxf_rtf.dll=Yes
+C:\Development Apps\Synchronized Source - Nominees\Class\vbSendMail.dll=Yes
+C:\Program Files\Common Files\Microsoft Shared\CDO\CDOEX.DLL=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\Program Files\Seagate Software\Shared\crtslv.dll=Yes
+C:\Program Files\Seagate Software\Shared\ExportModeller.dll=Yes
+C:\WINDOWS\system32\msvcp60.dll=Yes
+C:\WINDOWS\system32\comctl32.dll=Yes
+C:\WINDOWS\system32\comdlg32.dll=Yes
+C:\WINDOWS\system32\msvcirt.dll=Yes
+C:\WINDOWS\system32\crpe32.dll=Yes
+C:\WINDOWS\Crystal\Crxlat32.dll=Yes
+C:\Development Apps\Crystal Report 8\Windows\Crystal\p2bbde.dll=Yes
+C:\Development Apps\Crystal Report 8\Windows\System32\P2bbnd.dll=Yes
+C:\WINDOWS\system32\p2bdao.dll=Yes
+C:\WINDOWS\Crystal\p2bxbse.dll=Yes
+C:\WINDOWS\system32\p2ctdao.dll=Yes
+C:\WINDOWS\system32\p2irdao.dll=Yes
+C:\WINDOWS\Crystal\p2sifmx.dll=Yes
+C:\WINDOWS\system32\p2sodbc.dll=Yes
+C:\WINDOWS\Crystal\p2sora7.dll=Yes
+C:\WINDOWS\Crystal\p2ssql.dll=Yes
+C:\WINDOWS\Crystal\p2ssyb10.dll=Yes
+C:\WINDOWS\Crystal\p2soledb.dll=Yes
+C:\WINDOWS\Crystal\u2dnotes.dll=Yes
+C:\WINDOWS\Crystal\u2dpost.dll=Yes
+C:\WINDOWS\Crystal\u2dvim.dll=Yes
+C:\WINDOWS\Crystal\u2fhtml.dll=Yes
+C:\WINDOWS\Crystal\u2fodbc.dll=Yes
+C:\WINDOWS\Crystal\u2frec.dll=Yes
+C:\WINDOWS\Crystal\u2fwks.dll=Yes
+C:\WINDOWS\Crystal\u2fwordw.dll=Yes
+C:\WINDOWS\Crystal\u2fxls.dll=Yes
+C:\WINDOWS\Crystal\u25dts.dll=Yes
+C:\Development Apps\GroupLife\SOURCECODE\Package\Support\u25store.dll=Yes
+C:\Development Apps\GroupLife\SOURCECODE\Package\Support\u25total.dll=Yes
+C:\WINDOWS\Crystal\u2l2000.dll=Yes
+C:\Development Apps\GroupLife\SOURCECODE\Package\Support\u2lbar.dll=Yes
+C:\WINDOWS\Crystal\u2lcom.dll=Yes
+C:\WINDOWS\Crystal\u2ldts.dll=Yes
+C:\WINDOWS\Crystal\u2lsamp1.dll=Yes
+C:\WINDOWS\Crystal\u252000.dll=Yes
+
+[Package|SIS Setup Package|Configure Registry Files]
+Applicable=No
+
+[Package|SIS Setup Package|Configure Remote Servers]
+Applicable=No
+
+[Package|SIS Setup Package|Install Locations]
+C:\Program Files\DevStudio\Vb\ShareAdmin\SIS.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Office\Office\MSACC8.OLB=$(WinSysPath)
+C:\Program Files\Seagate Software\Viewers\ActiveXViewer\crviewer.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\CRAXDRT.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office\MSWORD8.OLB=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office\EXCEL8.OLB=$(WinSysPath)
+C:\Program Files\SIS\SDIActiveX.dll=$(WinSysPath)
+C:\Program Files\DevStudio\Vb\Class\SISRept.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\SSDW3A32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MFC42.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\SSDW3B32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\SSMEDT32.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\SSPRN32.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\Program Files\SIS\SISHELP.HLP=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\IMPLODE.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\crpaig32.dll=$(WinSysPath)
+\program files\seagate software\sschart\SSCSDK32.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\P2smon.dll=$(WinSysPath)
+C:\Program Files\SIS\SISRept.dll=$(WinSysPath)
+C:\Program Files\Sheridan\DataWidgets\ssdw3a32.ocx=$(WinSysPath)
+C:\Program Files\Sheridan\DataWidgets\ssdw3b32.ocx=$(WinSysPath)
+C:\Program Files\Sheridan\DataWidgets\ssmedt32.dll=$(WinSysPath)
+C:\Program Files\Sheridan\DataWidgets\ssprn32.dll=$(WinSysPath)
+D:\Program Files\DevStudio\VB\ShareAdmin\SIS.exe=$(AppPath)
+C:\Program Files\Seagate Software\SSChart\sscsdk32.dll=$(WinSysPath)
+D:\Program Files\DevStudio\VB\Class\SDIActiveX.dll=$(AppPath)
+D:\Program Files\DevStudio\VB\Class\SISRept.dll=$(WinSysPath)
+C:\Development Apps\SIS\ShareAdmin\SIS.exe=$(AppPath)
+C:\Windows\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Windows\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Windows\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Windows\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Windows\SYSTEM\CRVIEWER.DLL=$(WinSysPath)
+C:\Development Apps\SIS\Class\SDIActiveX.dll=$(AppPath)
+C:\Windows\SYSTEM\SISREPT.DLL=$(WinSysPath)
+C:\Program Files\Infragistics\Data Widgets\ssdw3a32.ocx=$(WinSysPath)
+C:\Program Files\Infragistics\Data Widgets\ssdw3b32.ocx=$(WinSysPath)
+C:\Program Files\Infragistics\Data Widgets\ssmedt32.dll=$(WinSysPath)
+C:\Program Files\Infragistics\Data Widgets\ssprn32.dll=$(WinSysPath)
+C:\Development Applications\SIS\ShareAdmin\SIS.exe=$(AppPath)
+C:\Program Files\Microsoft Office\Office\MSACC9.OLB=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office\MSWORD9.OLB=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=$(WinSysPath)
+C:\WINDOWS\SYSTEM\SDIActiveX.dll=$(WinSysPath)
+C:\Development Applications\SIS\ShareAdmin\Package\Support\SISHELP.HLP=$(AppPath)
+C:\Program Files\Common Files\SYSTEM\ADO\msado25.tlb=$(WinSysPath)
+C:\WINDOWS\SYSTEM\p2sodbc.dll=$(WinSysPath)
+C:\Development Apps\TEST SIS\ShareAdmin\SIS.exe=$(AppPath)
+C:\WINDOWS\SYSTEM32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Office\Office10\MSACC.OLB=$(WinSysPath)
+C:\Program Files\Seagate Software\Crystal Reports\craxdrt.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\IMPLODE.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\crpaig32.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\SSCSDK32.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\P2smon.dll=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office10\MSWORD.OLB=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office10\EXCEL.EXE=$(AppPath)
+C:\Development Apps\TEST SIS\Class\SISRept.dll=$(AppPath)
+C:\Development Apps\TEST SIS\Class\SDIActiveX.dll=$(AppPath)
+C:\WINDOWS\SYSTEM32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\msmask32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\comctl32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MFC42.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\Richtx32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Seagate Software\Report Designer Component\craxdrt.dll=$(WinSysPath)
+C:\Program Files\Seagate Software\Report Designer Component\craxddrt.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\Crpaig80.dll=$(WinSysPath)
+\program files\seagate software\shared\SSCSDK80.DLL=$(WinSysPath)
+\program files\seagate software\shared\PG32CONV.DLL=$(AppPath)
+C:\Development Apps\Synchronized Source - Nominees\ShareAdmin\SIS.exe=$(AppPath)
+C:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+C:\Development Apps\TEST SIS\vbSendMail\vbSendMail.dll=$(WinSysPath)
+C:\Development Apps\Synchronized Source - Nominees\Class\SISRept.dll=$(AppPath)
+C:\Program Files\Microsoft Office\Office10\MSCAL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSHFLXGD.OCX=$(WinSysPath)
+C:\WINDOWS\Crystal\u2dapp.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2ddisk.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2dmapi.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2fcr.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2fsepv.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2ftext.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\crxf_pdf.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\crxf_rtf.dll=$(WinSysPath)
+C:\WINDOWS\system32\msvcp60.dll=$(WinSysPath)
+C:\WINDOWS\system32\msvcirt.dll=$(WinSysPath)
+C:\Development Apps\Synchronized Source - Nominees\Class\vbSendMail.dll=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\CDO\CDOEX.DLL=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\Program Files\Seagate Software\Shared\crtslv.dll=$(WinSysPath)
+C:\Program Files\Seagate Software\Shared\ExportModeller.dll=$(WinSysPath)
+C:\WINDOWS\system32\comctl32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\comdlg32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\crpe32.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\Crxlat32.dll=$(WinSysPath)
+C:\Development Apps\Crystal Report 8\Windows\Crystal\p2bbde.dll=$(WinSysPath)
+C:\Development Apps\Crystal Report 8\Windows\System32\P2bbnd.dll=$(WinSysPath)
+C:\WINDOWS\system32\p2bdao.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\p2bxbse.dll=$(WinSysPath)
+C:\WINDOWS\system32\p2ctdao.dll=$(WinSysPath)
+C:\WINDOWS\system32\p2irdao.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\p2sifmx.dll=$(WinSysPath)
+C:\WINDOWS\system32\p2sodbc.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\p2sora7.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\p2ssql.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\p2ssyb10.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\p2soledb.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2dnotes.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2dpost.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2dvim.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2fhtml.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2fodbc.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2frec.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2fwks.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2fwordw.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2fxls.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u25dts.dll=$(WinSysPath)
+C:\Development Apps\GroupLife\SOURCECODE\Package\Support\u25store.dll=$(AppPath)
+C:\Development Apps\GroupLife\SOURCECODE\Package\Support\u25total.dll=$(AppPath)
+C:\WINDOWS\Crystal\u2l2000.dll=$(WinSysPath)
+C:\Development Apps\GroupLife\SOURCECODE\Package\Support\u2lbar.dll=$(AppPath)
+C:\WINDOWS\Crystal\u2lcom.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2ldts.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u2lsamp1.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\u252000.dll=$(WinSysPath)
+
+[Package|SIS Setup Package|Configure Shared Files]
+Applicable=Yes
+C:\Program Files\DevStudio\Vb\ShareAdmin\SIS.exe=No
+C:\Program Files\SIS\SISHELP.HLP=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\Program Files\DevStudio\VB\ShareAdmin\SIS.exe=No
+D:\Program Files\DevStudio\VB\Class\SDIActiveX.dll=No
+C:\Development Apps\SIS\ShareAdmin\SIS.exe=No
+C:\Development Apps\SIS\Class\SDIActiveX.dll=No
+C:\Development Applications\SIS\ShareAdmin\SIS.exe=No
+C:\Development Applications\SIS\ShareAdmin\Package\Support\SISHELP.HLP=No
+C:\Development Apps\TEST SIS\ShareAdmin\SIS.exe=No
+C:\Program Files\Microsoft Office\Office10\EXCEL.EXE=No
+C:\Development Apps\TEST SIS\Class\SISRept.dll=Yes
+C:\Development Apps\TEST SIS\Class\SDIActiveX.dll=No
+\program files\seagate software\shared\PG32CONV.DLL=No
+C:\Development Apps\Synchronized Source - Nominees\ShareAdmin\SIS.exe=No
+C:\Development Apps\Synchronized Source - Nominees\Class\SISRept.dll=No
+C:\Development Apps\GroupLife\SOURCECODE\Package\Support\u25store.dll=No
+C:\Development Apps\GroupLife\SOURCECODE\Package\Support\u25total.dll=No
+C:\Development Apps\GroupLife\SOURCECODE\Package\Support\u2lbar.dll=No
+
+[Package|SIS Setup Package|Distribution]
+Type=single
+Size=1.2 MB
+Title=Shareholder Information System
+
+[Package|SIS Setup Package|Package]
+PackageFolder=C:\Development Apps\Synchronized Source - Nominees\Files\Deployment
+ProjectFolder=C:\Development Apps\Synchronized Source - Nominees\ShareAdmin
+ServerSideCab=
+File1=C:\Development Apps\Synchronized Source - Nominees\Files\Deployment\setup.exe
+File2=C:\Development Apps\Synchronized Source - Nominees\Files\Deployment\Setup.Lst
+File3=C:\Development Apps\Synchronized Source - Nominees\Files\Deployment\SIS.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|SIS Setup Package|IconGroups]
+Group0=Shareholder information system
+PrivateGroup0=0
+Parent0=$(Programs)
+
+[Package|SIS Setup Package|Shareholder information system]
+Icon1=SIS.exe
+Title1=SIS
+StartIn1=$(AppPath)
+Key1=Icon1

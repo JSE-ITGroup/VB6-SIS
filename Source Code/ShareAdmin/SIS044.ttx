@@ -1,0 +1,20 @@
+BnkName	String	50	
+BnkAddr1	String	30	
+BnkAddr2	String	25	
+BnkAddr3	String	20	
+BnkAddr4	String	20	
+BnkAddr5	String	20
+ClientId	Long	
+MndStaDte	Date
+MndAcnt	String	16
+MndAcntNme	String	50
+BankId	String	6
+MndName	String	50
+MndAddr1	String	30	
+MndAddr2	String	25	
+MndAddr3	String	20	
+MndAddr4	String	20	
+MndAddr5	String	20
+MndEndDte	Date	
+CompName	String	50
+CliName	String	50

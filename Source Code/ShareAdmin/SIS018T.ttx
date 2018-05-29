@@ -1,0 +1,6 @@
+ChqAmt	Currency
+TaxOffice	String	50
+ChqDat	Date
+Comment	String	50
+
+	

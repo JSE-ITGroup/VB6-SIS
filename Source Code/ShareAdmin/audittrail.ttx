@@ -1,0 +1,14 @@
+MndAcntNme	String	50
+ClientId	String	10
+MndStaDte	Date
+MndAcnt	String	16
+BankId	String	6
+MndName	String	50
+MndAddr1	String	30
+MndAddr2	String	35
+MndAddr3	String	20
+MndAddr4	String	20
+MndAddr5	String	20
+MndEndDte	Date
+MndCreated	Date
+MndMET	String	3

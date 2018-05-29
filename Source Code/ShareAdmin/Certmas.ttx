@@ -1,0 +1,8 @@
+CertNo	Number		0
+ClientId	Number		0
+IssDate	Date		
+Shares	Number		
+TrnCode	String	1	
+TrnBatch	String	8	
+TrnDate	Date		
+FormNo	String	8

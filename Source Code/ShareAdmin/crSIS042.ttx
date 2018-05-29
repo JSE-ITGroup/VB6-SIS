@@ -1,0 +1,6 @@
+CompName	String	50	
+IssStocks	Number
+OwnerShipPer	Number
+ClientID	Long
+Cliname	String 	50
+Shares	Number
